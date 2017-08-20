@@ -1,7 +1,7 @@
 include <Polygon.scad>
 
 $fn=150 ;
-$epaisseurAimant=4.2;
+$epaisseurAimant=4.3;
 $epaisseurSocle=1;
 $epaisseurPlafond=1;
 
@@ -19,7 +19,7 @@ module teteDeVisseuse() {
     {
         difference() {
             cylinder(20,6.2, 6.2);
-            Hexagon(A=3,R=3.5,S=4,h=20,debug=false);
+            Hexagon(A=3.4,R=3.9,S=4,h=7,debug=false);
         }
     }
 }
